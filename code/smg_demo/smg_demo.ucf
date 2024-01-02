@@ -1,0 +1,19 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "SMG_Data[7]" LOC = C6;
+NET "SMG_Data[5]" LOC = E7;
+NET "SMG_Data[6]" LOC = D5;
+NET "SMG_Data[4]" LOC = D6;
+NET "SMG_Data[3]" LOC = F7;
+NET "SMG_Data[2]" LOC = C5;
+NET "SMG_Data[1]" LOC = E6;
+NET "SMG_Data[0]" LOC = C7;
+NET "Scan_Sig[5]" LOC = D9;
+NET "Scan_Sig[4]" LOC = E10;
+NET "Scan_Sig[3]" LOC = F10;
+NET "Scan_Sig[2]" LOC = F9;
+NET "Scan_Sig[1]" LOC = E8;
+NET "Scan_Sig[0]" LOC = D8;
+NET "rst_n" LOC = L3;
+NET "clk" LOC = T8;

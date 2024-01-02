@@ -1,0 +1,52 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Thu May 21 20:10:56 2020
+# Process ID: 4992
+# Log file: C:/Users/Admin/Desktop/FPGA_ISE_code/key_filter/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/Admin/Desktop/FPGA_ISE_code/key_filter/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Admin/Desktop/FPGA_ISE_code/key_filter/pa.fromNetlist.tcl
+startgroup
+set_property package_pin G1 [get_ports {led[3]}]
+endgroup
+startgroup
+set_property package_pin A7 [get_ports {key_in[3]}]
+endgroup
+startgroup
+set_property package_pin M4 [get_ports {key_in[2]}]
+endgroup
+startgroup
+set_property package_pin C3 [get_ports {key_in[3]}]
+endgroup
+startgroup
+set_property package_pin D3 [get_ports {key_in[2]}]
+endgroup
+startgroup
+set_property package_pin E4 [get_ports {key_in[1]}]
+endgroup
+startgroup
+set_property package_pin E3 [get_ports {key_in[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {led[2]}]]
+startgroup
+set_property package_pin P4 [get_ports {led[3]}]
+endgroup
+set_property package_pin "" [get_ports [list  {led[2]}]]
+set_property package_pin "" [get_ports [list  {led[0]}]]
+set_property package_pin "" [get_ports [list  {led[2]}]]
+set_property package_pin "" [get_ports [list  {led[1]}]]
+startgroup
+set_property package_pin N5 [get_ports {led[2]}]
+endgroup
+startgroup
+set_property package_pin P5 [get_ports {led[1]}]
+endgroup
+startgroup
+set_property package_pin M6 [get_ports {led[0]}]
+endgroup
+startgroup
+set_property package_pin T8 [get_ports clk]
+endgroup
+save_constraints

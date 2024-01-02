@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="smg_demo.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="smg_demo.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="smg_demo.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="smg_demo.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="smg_demo.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="smg_demo.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="smg_demo.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="smg_demo.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="smg_demo.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="smg_demo.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="smg_demo.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="smg_demo.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="smg_demo.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="smg_demo.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="smg_demo.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="smg_demo.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="smg_demo.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="smg_demo.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="smg_demo.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="smg_demo.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="smg_demo.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="smg_demo.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="smg_demo.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="smg_demo.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="smg_demo_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="smg_demo_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="smg_demo_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="smg_demo_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="smg_demo_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="smg_demo_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="smg_demo_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="smg_demo_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="smg_demo_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="smg_demo_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="smg_demo_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="smg_demo_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="smg_demo_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="smg_demo_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="smg_demo_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1590071936" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1590071935">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1590071936" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="6467369067121610688" xil_pn:start_ts="1590071936">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1590071936" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-7407211173918325784" xil_pn:start_ts="1590071936">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1590071936" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1590071936">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1590071936" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-2087332916625739326" xil_pn:start_ts="1590071936">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1590071936" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="250970745411629038" xil_pn:start_ts="1590071936">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1590071936" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="1595550138034087858" xil_pn:start_ts="1590071936">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1590074619" xil_pn:in_ck="5495135672053519" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="1556203954287187959" xil_pn:start_ts="1590074602">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="smg_demo.lso"/>
+      <outfile xil_pn:name="smg_demo.ngc"/>
+      <outfile xil_pn:name="smg_demo.ngr"/>
+      <outfile xil_pn:name="smg_demo.prj"/>
+      <outfile xil_pn:name="smg_demo.stx"/>
+      <outfile xil_pn:name="smg_demo.syr"/>
+      <outfile xil_pn:name="smg_demo.xst"/>
+      <outfile xil_pn:name="smg_demo_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1590072979" xil_pn:in_ck="5984202746866284471" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="4784894186808564589" xil_pn:start_ts="1590072979">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1590073862" xil_pn:in_ck="906684287165498280" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="3247764607920805449" xil_pn:start_ts="1590073853">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="smg_demo.bld"/>
+      <outfile xil_pn:name="smg_demo.ngd"/>
+      <outfile xil_pn:name="smg_demo_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1590073878" xil_pn:in_ck="2574573802118483241" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="111412226054857016" xil_pn:start_ts="1590073862">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="smg_demo.pcf"/>
+      <outfile xil_pn:name="smg_demo_map.map"/>
+      <outfile xil_pn:name="smg_demo_map.mrp"/>
+      <outfile xil_pn:name="smg_demo_map.ncd"/>
+      <outfile xil_pn:name="smg_demo_map.ngm"/>
+      <outfile xil_pn:name="smg_demo_map.xrpt"/>
+      <outfile xil_pn:name="smg_demo_summary.xml"/>
+      <outfile xil_pn:name="smg_demo_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1590073904" xil_pn:in_ck="-5551483840008906686" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="93661965788626211" xil_pn:start_ts="1590073878">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="smg_demo.ncd"/>
+      <outfile xil_pn:name="smg_demo.pad"/>
+      <outfile xil_pn:name="smg_demo.par"/>
+      <outfile xil_pn:name="smg_demo.ptwx"/>
+      <outfile xil_pn:name="smg_demo.unroutes"/>
+      <outfile xil_pn:name="smg_demo.xpi"/>
+      <outfile xil_pn:name="smg_demo_pad.csv"/>
+      <outfile xil_pn:name="smg_demo_pad.txt"/>
+      <outfile xil_pn:name="smg_demo_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1590073930" xil_pn:in_ck="5984202746866276846" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="396117104113915555" xil_pn:start_ts="1590073904">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="smg_demo.bgn"/>
+      <outfile xil_pn:name="smg_demo.bit"/>
+      <outfile xil_pn:name="smg_demo.drc"/>
+      <outfile xil_pn:name="smg_demo.ut"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1590073212" xil_pn:in_ck="5984202746866263992" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="8482462020707587906" xil_pn:start_ts="1590073209">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1590073904" xil_pn:in_ck="3774086712839087781" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1590073895">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="smg_demo.twr"/>
+      <outfile xil_pn:name="smg_demo.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

@@ -1,0 +1,15 @@
+
+
+NET "key_in[3]" LOC = C3;
+NET "key_in[2]" LOC = D3;
+NET "key_in[1]" LOC = E4;
+NET "key_in[0]" LOC = E3;
+NET "led[3]" LOC = P4;
+NET "rst_n" LOC = N3;
+NET "clk" LOC = T8;
+
+# PlanAhead Generated physical constraints 
+
+NET "led[2]" LOC = N5;
+NET "led[1]" LOC = P5;
+NET "led[0]" LOC = M6;

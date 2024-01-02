@@ -1,0 +1,414 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.20 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.20 secs
+ 
+--> Reading design: smg_demo.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "smg_demo.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "smg_demo"
+Output Format                      : NGC
+Target Device                      : xc6slx9-2-ftg256
+
+---- Source Options
+Top Module Name                    : smg_demo
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\Admin\Desktop\FPGA_ISE_code\FPGA_design\smg_demo\smg_demo\smg_demo.v" into library work
+Parsing module <smg_demo>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <smg_demo>.
+WARNING:HDLCompiler:413 - "C:\Users\Admin\Desktop\FPGA_ISE_code\FPGA_design\smg_demo\smg_demo\smg_demo.v" Line 40: Result of 17-bit expression is truncated to fit in 16-bit target.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <smg_demo>.
+    Related source file is "C:\Users\Admin\Desktop\FPGA_ISE_code\FPGA_design\smg_demo\smg_demo\smg_demo.v".
+        T1MS = 16'b1100001101010000
+        _0 = 8'b11000000
+        _1 = 8'b11111001
+        _2 = 8'b10100100
+        _3 = 8'b10110000
+        _4 = 8'b10011001
+        _5 = 8'b10010010
+        _6 = 8'b10000010
+        _7 = 8'b11111000
+        _8 = 8'b10000000
+        _9 = 8'b10010000
+    Found 4-bit register for signal <N_data>.
+    Found 16-bit register for signal <cnt>.
+    Found 6-bit register for signal <Scan_Sig>.
+    Found 16-bit adder for signal <cnt[15]_GND_1_o_add_1_OUT> created at line 40.
+    Found 16x8-bit Read Only RAM for signal <SMG_Data>
+    Summary:
+	inferred   1 RAM(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred  26 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <smg_demo> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 16x8-bit single-port Read Only RAM                    : 1
+# Adders/Subtractors                                   : 1
+ 16-bit adder                                          : 1
+# Registers                                            : 3
+ 16-bit register                                       : 1
+ 4-bit register                                        : 1
+ 6-bit register                                        : 1
+# Multiplexers                                         : 1
+ 16-bit 2-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <smg_demo>.
+The following registers are absorbed into counter <cnt>: 1 register on signal <cnt>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_SMG_Data> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <N_data>        |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <SMG_Data>      |          |
+    -----------------------------------------------------------------------
+Unit <smg_demo> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 16x8-bit single-port distributed Read Only RAM        : 1
+# Counters                                             : 1
+ 16-bit up counter                                     : 1
+# Registers                                            : 10
+ Flip-Flops                                            : 10
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <smg_demo> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block smg_demo, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 26
+ Flip-Flops                                            : 26
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : smg_demo.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 94
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 15
+#      LUT2                        : 16
+#      LUT3                        : 1
+#      LUT4                        : 11
+#      LUT6                        : 16
+#      MUXCY                       : 15
+#      VCC                         : 1
+#      XORCY                       : 16
+# FlipFlops/Latches                : 26
+#      FDC                         : 20
+#      FDCE                        : 1
+#      FDPE                        : 5
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 39
+#      IBUF                        : 25
+#      OBUF                        : 14
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9ftg256-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              26  out of  11440     0%  
+ Number of Slice LUTs:                   61  out of   5720     1%  
+    Number used as Logic:                61  out of   5720     1%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     65
+   Number with an unused Flip Flop:      39  out of     65    60%  
+   Number with an unused LUT:             4  out of     65     6%  
+   Number of fully used LUT-FF pairs:    22  out of     65    33%  
+   Number of unique control sets:         2
+
+IO Utilization: 
+ Number of IOs:                          40
+ Number of bonded IOBs:                  40  out of    186    21%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 26    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 4.441ns (Maximum Frequency: 225.175MHz)
+   Minimum input arrival time before clock: 4.142ns
+   Maximum output required time after clock: 5.558ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 4.441ns (frequency: 225.175MHz)
+  Total number of paths / destination ports: 554 / 32
+-------------------------------------------------------------------------
+Delay:               4.441ns (Levels of Logic = 3)
+  Source:            cnt_11 (FF)
+  Destination:       cnt_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: cnt_11 to cnt_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.525   1.181  cnt_11 (cnt_11)
+     LUT6:I0->O            2   0.254   0.834  GND_1_o_GND_1_o_equal_5_o<15>4_SW0 (N0)
+     LUT6:I4->O           12   0.250   1.069  GND_1_o_GND_1_o_equal_5_o<15>4 (GND_1_o_GND_1_o_equal_5_o)
+     LUT2:I1->O            1   0.254   0.000  Mcount_cnt_eqn_01 (Mcount_cnt_eqn_0)
+     FDC:D                     0.074          cnt_0
+    ----------------------------------------
+    Total                      4.441ns (1.357ns logic, 3.084ns route)
+                                       (30.6% logic, 69.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 50 / 30
+-------------------------------------------------------------------------
+Offset:              4.142ns (Levels of Logic = 2)
+  Source:            rst_n (PAD)
+  Destination:       N_data_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: rst_n to N_data_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.328   0.681  rst_n_IBUF (rst_n_IBUF)
+     INV:I->O             26   0.255   1.419  rst_n_inv1_INV_0 (rst_n_inv)
+     FDC:CLR                   0.459          N_data_0
+    ----------------------------------------
+    Total                      4.142ns (2.042ns logic, 2.100ns route)
+                                       (49.3% logic, 50.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 34 / 13
+-------------------------------------------------------------------------
+Offset:              5.558ns (Levels of Logic = 2)
+  Source:            N_data_2 (FF)
+  Destination:       SMG_Data<6> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: N_data_2 to SMG_Data<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              7   0.525   1.186  N_data_2 (N_data_2)
+     LUT4:I0->O            1   0.254   0.681  Mram_SMG_Data61 (SMG_Data_6_OBUF)
+     OBUF:I->O                 2.912          SMG_Data_6_OBUF (SMG_Data<6>)
+    ----------------------------------------
+    Total                      5.558ns (3.691ns logic, 1.867ns route)
+                                       (66.4% logic, 33.6% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    4.441|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 12.19 secs
+ 
+--> 
+
+Total memory usage is 4553664 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

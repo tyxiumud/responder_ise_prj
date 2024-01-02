@@ -1,0 +1,23 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu May 21 23:11:15 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "SMG_Data<0>" LOCATE = SITE "C7" LEVEL 1;
+COMP "SMG_Data<1>" LOCATE = SITE "E6" LEVEL 1;
+COMP "SMG_Data<2>" LOCATE = SITE "C5" LEVEL 1;
+COMP "SMG_Data<3>" LOCATE = SITE "F7" LEVEL 1;
+COMP "SMG_Data<4>" LOCATE = SITE "D6" LEVEL 1;
+COMP "SMG_Data<5>" LOCATE = SITE "E7" LEVEL 1;
+COMP "clk" LOCATE = SITE "T8" LEVEL 1;
+COMP "SMG_Data<6>" LOCATE = SITE "D5" LEVEL 1;
+COMP "SMG_Data<7>" LOCATE = SITE "C6" LEVEL 1;
+COMP "rst_n" LOCATE = SITE "L3" LEVEL 1;
+COMP "Scan_Sig<0>" LOCATE = SITE "D8" LEVEL 1;
+COMP "Scan_Sig<1>" LOCATE = SITE "E8" LEVEL 1;
+COMP "Scan_Sig<2>" LOCATE = SITE "F9" LEVEL 1;
+COMP "Scan_Sig<3>" LOCATE = SITE "F10" LEVEL 1;
+COMP "Scan_Sig<4>" LOCATE = SITE "E10" LEVEL 1;
+COMP "Scan_Sig<5>" LOCATE = SITE "D9" LEVEL 1;
+SCHEMATIC END;
+

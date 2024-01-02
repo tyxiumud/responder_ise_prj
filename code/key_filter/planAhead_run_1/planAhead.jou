@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Tue Jan 22 18:17:38 2019
+# Process ID: 11768
+# Log file: E:/FPGAtest/key_filter/planAhead_run_1/planAhead.log
+# Journal file: E:/FPGAtest/key_filter/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/FPGAtest/key_filter/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin A7 [get_ports {key_in[3]}]
+endgroup
+startgroup
+set_property package_pin M4 [get_ports {key_in[2]}]
+endgroup
+startgroup
+set_property package_pin C11 [get_ports {key_in[1]}]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports {key_in[0]}]
+endgroup
+startgroup
+set_property package_pin G1 [get_ports {key_out[3]}]
+endgroup
+startgroup
+set_property package_pin P4 [get_ports {key_out[2]}]
+endgroup
+startgroup
+set_property package_pin N4 [get_ports {key_out[1]}]
+endgroup
+startgroup
+set_property package_pin N5 [get_ports {key_out[0]}]
+endgroup
+startgroup
+set_property package_pin N3 [get_ports rst_n]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports clk]
+endgroup
+save_constraints

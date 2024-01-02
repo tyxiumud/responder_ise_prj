@@ -1,0 +1,59 @@
+xst -intstyle ise -ifn "E:/FPGAtest/key_filter/key_filter.xst" -ofn "E:/FPGAtest/key_filter/key_filter.syr" 
+xst -intstyle ise -ifn "E:/FPGAtest/key_filter/key_filter.xst" -ofn "E:/FPGAtest/key_filter/key_filter.syr" 
+xst -intstyle ise -ifn "E:/FPGAtest/key_filter/key_filter.xst" -ofn "E:/FPGAtest/key_filter/key_filter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc key_filter.ucf -p xc3s100e-cp132-4 key_filter.ngc key_filter.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o key_filter_map.ncd key_filter.ngd key_filter.pcf 
+par -w -intstyle ise -ol high -t 1 key_filter_map.ncd key_filter.ncd key_filter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml key_filter.twx key_filter.ncd -o key_filter.twr key_filter.pcf -ucf key_filter.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc key_filter.ucf -p xc3s100e-cp132-4 key_filter.ngc key_filter.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o key_filter_map.ncd key_filter.ngd key_filter.pcf 
+par -w -intstyle ise -ol high -t 1 key_filter_map.ncd key_filter.ncd key_filter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml key_filter.twx key_filter.ncd -o key_filter.twr key_filter.pcf -ucf key_filter.ucf 
+bitgen -intstyle ise -f key_filter.ut key_filter.ncd 
+xst -intstyle ise -ifn "E:/FPGAtest/key_filter/key_filter.xst" -ofn "E:/FPGAtest/key_filter/key_filter.syr" 
+xst -intstyle ise -ifn "E:/FPGAtest/key_filter/key_filter.xst" -ofn "E:/FPGAtest/key_filter/key_filter.syr" 
+xst -intstyle ise -ifn "E:/FPGAtest/key_filter/key_filter.xst" -ofn "E:/FPGAtest/key_filter/key_filter.syr" 
+xst -intstyle ise -ifn "E:/FPGAtest/key_filter/key_filter.xst" -ofn "E:/FPGAtest/key_filter/key_filter.syr" 
+xst -intstyle ise -ifn "E:/FPGAtest/key_filter/key_filter.xst" -ofn "E:/FPGAtest/key_filter/key_filter.syr" 
+xst -intstyle ise -ifn "E:/FPGAtest/key_filter/key_filter.xst" -ofn "E:/FPGAtest/key_filter/key_filter.syr" 
+xst -intstyle ise -ifn "E:/FPGAtest/key_filter/key_filter.xst" -ofn "E:/FPGAtest/key_filter/key_filter.syr" 
+xst -intstyle ise -ifn "E:/FPGAtest/key_filter/key_filter.xst" -ofn "E:/FPGAtest/key_filter/key_filter.syr" 
+xst -intstyle ise -ifn "E:/FPGAtest/key_filter/key_filter.xst" -ofn "E:/FPGAtest/key_filter/key_filter.syr" 
+xst -intstyle ise -ifn "E:/FPGAtest/key_filter/key_filter.xst" -ofn "E:/FPGAtest/key_filter/key_filter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc key_filter.ucf -p xc3s100e-cp132-4 key_filter.ngc key_filter.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o key_filter_map.ncd key_filter.ngd key_filter.pcf 
+par -w -intstyle ise -ol high -t 1 key_filter_map.ncd key_filter.ncd key_filter.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc key_filter.ucf -p xc3s100e-cp132-4 key_filter.ngc key_filter.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o key_filter_map.ncd key_filter.ngd key_filter.pcf 
+par -w -intstyle ise -ol high -t 1 key_filter_map.ncd key_filter.ncd key_filter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml key_filter.twx key_filter.ncd -o key_filter.twr key_filter.pcf -ucf key_filter.ucf 
+bitgen -intstyle ise -f key_filter.ut key_filter.ncd 
+xst -intstyle ise -ifn "E:/FPGAtest/key_filter/key_filter.xst" -ofn "E:/FPGAtest/key_filter/key_filter.syr" 
+xst -intstyle ise -ifn "E:/FPGAtest/key_filter/key_filter.xst" -ofn "E:/FPGAtest/key_filter/key_filter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc key_filter.ucf -p xc3s100e-cp132-4 key_filter.ngc key_filter.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o key_filter_map.ncd key_filter.ngd key_filter.pcf 
+par -w -intstyle ise -ol high -t 1 key_filter_map.ncd key_filter.ncd key_filter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml key_filter.twx key_filter.ncd -o key_filter.twr key_filter.pcf -ucf key_filter.ucf 
+bitgen -intstyle ise -f key_filter.ut key_filter.ncd 
+xst -intstyle ise -ifn "E:/FPGAtest/key_filter/key_filter.xst" -ofn "E:/FPGAtest/key_filter/key_filter.syr" 
+xst -intstyle ise -ifn "E:/FPGAtest/key_filter/key_filter.xst" -ofn "E:/FPGAtest/key_filter/key_filter.syr" 
+xst -intstyle ise -ifn "E:/FPGAtest/key_filter/key_filter.xst" -ofn "E:/FPGAtest/key_filter/key_filter.syr" 
+xst -intstyle ise -ifn "E:/FPGAtest/key_filter/key_filter.xst" -ofn "E:/FPGAtest/key_filter/key_filter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc key_filter.ucf -p xc3s100e-cp132-4 key_filter.ngc key_filter.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o key_filter_map.ncd key_filter.ngd key_filter.pcf 
+par -w -intstyle ise -ol high -t 1 key_filter_map.ncd key_filter.ncd key_filter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml key_filter.twx key_filter.ncd -o key_filter.twr key_filter.pcf -ucf key_filter.ucf 
+bitgen -intstyle ise -f key_filter.ut key_filter.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/FPGA_ISE_code/key_filter/key_filter.xst" -ofn "C:/Users/Admin/Desktop/FPGA_ISE_code/key_filter/key_filter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc key_filter.ucf -p xc3s100e-cp132-4 key_filter.ngc key_filter.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o key_filter_map.ncd key_filter.ngd key_filter.pcf 
+par -w -intstyle ise -ol high -t 1 key_filter_map.ncd key_filter.ncd key_filter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml key_filter.twx key_filter.ncd -o key_filter.twr key_filter.pcf -ucf key_filter.ucf 
+bitgen -intstyle ise -f key_filter.ut key_filter.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/FPGA_ISE_code/key_filter/key_filter.xst" -ofn "C:/Users/Admin/Desktop/FPGA_ISE_code/key_filter/key_filter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc key_filter.ucf -p xc6slx9-ftg256-2 key_filter.ngc key_filter.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o key_filter_map.ncd key_filter.ngd key_filter.pcf 
+par -w -intstyle ise -ol high -mt off key_filter_map.ncd key_filter.ncd key_filter.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml key_filter.twx key_filter.ncd -o key_filter.twr key_filter.pcf -ucf key_filter.ucf 
+bitgen -intstyle ise -f key_filter.ut key_filter.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/FPGA_ISE_code/key_filter/key_filter.xst" -ofn "C:/Users/Admin/Desktop/FPGA_ISE_code/key_filter/key_filter.syr" 

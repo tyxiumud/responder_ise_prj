@@ -1,0 +1,64 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Thu May 21 22:53:23 2020
+# Process ID: 9468
+# Log file: C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin C6 [get_ports {SMG_Data[7]}]
+endgroup
+startgroup
+set_property package_pin D5 [get_ports {SMG_Data[6]}]
+endgroup
+startgroup
+set_property package_pin E7 [get_ports {SMG_Data[5]}]
+endgroup
+set_property package_pin "" [get_ports [list  {SMG_Data[4]}]]
+startgroup
+set_property package_pin D5 [get_ports {SMG_Data[6]}]
+endgroup
+startgroup
+set_property package_pin D6 [get_ports {SMG_Data[4]}]
+endgroup
+startgroup
+set_property package_pin F7 [get_ports {SMG_Data[3]}]
+endgroup
+startgroup
+set_property package_pin C5 [get_ports {SMG_Data[2]}]
+endgroup
+startgroup
+set_property package_pin E6 [get_ports {SMG_Data[1]}]
+endgroup
+startgroup
+set_property package_pin C7 [get_ports {SMG_Data[0]}]
+endgroup
+startgroup
+set_property package_pin D9 [get_ports {Scan_Sig[5]}]
+endgroup
+startgroup
+set_property package_pin E10 [get_ports {Scan_Sig[4]}]
+endgroup
+startgroup
+set_property package_pin F10 [get_ports {Scan_Sig[3]}]
+endgroup
+startgroup
+set_property package_pin F9 [get_ports {Scan_Sig[2]}]
+endgroup
+startgroup
+set_property package_pin E8 [get_ports {Scan_Sig[1]}]
+endgroup
+startgroup
+set_property package_pin D8 [get_ports {Scan_Sig[0]}]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports rst_n]
+endgroup
+startgroup
+set_property package_pin T8 [get_ports clk]
+endgroup
+save_constraints

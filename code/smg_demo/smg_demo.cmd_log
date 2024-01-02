@@ -1,0 +1,40 @@
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.xst" -ofn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.xst" -ofn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.xst" -ofn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.xst" -ofn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.xst" -ofn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.xst" -ofn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.xst" -ofn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.xst" -ofn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc smg_demo.ucf -p xc6slx9-ftg256-2 smg_demo.ngc smg_demo.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o smg_demo_map.ncd smg_demo.ngd smg_demo.pcf 
+par -w -intstyle ise -ol high -mt off smg_demo_map.ncd smg_demo.ncd smg_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml smg_demo.twx smg_demo.ncd -o smg_demo.twr smg_demo.pcf -ucf smg_demo.ucf 
+bitgen -intstyle ise -f smg_demo.ut smg_demo.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.xst" -ofn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc smg_demo.ucf -p xc6slx9-ftg256-2 smg_demo.ngc smg_demo.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o smg_demo_map.ncd smg_demo.ngd smg_demo.pcf 
+par -w -intstyle ise -ol high -mt off smg_demo_map.ncd smg_demo.ncd smg_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml smg_demo.twx smg_demo.ncd -o smg_demo.twr smg_demo.pcf -ucf smg_demo.ucf 
+bitgen -intstyle ise -f smg_demo.ut smg_demo.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.xst" -ofn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc smg_demo.ucf -p xc6slx9-ftg256-2 smg_demo.ngc smg_demo.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o smg_demo_map.ncd smg_demo.ngd smg_demo.pcf 
+par -w -intstyle ise -ol high -mt off smg_demo_map.ncd smg_demo.ncd smg_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml smg_demo.twx smg_demo.ncd -o smg_demo.twr smg_demo.pcf -ucf smg_demo.ucf 
+bitgen -intstyle ise -f smg_demo.ut smg_demo.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.xst" -ofn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc smg_demo.ucf -p xc6slx9-ftg256-2 smg_demo.ngc smg_demo.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o smg_demo_map.ncd smg_demo.ngd smg_demo.pcf 
+par -w -intstyle ise -ol high -mt off smg_demo_map.ncd smg_demo.ncd smg_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml smg_demo.twx smg_demo.ncd -o smg_demo.twr smg_demo.pcf -ucf smg_demo.ucf 
+bitgen -intstyle ise -f smg_demo.ut smg_demo.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.xst" -ofn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc smg_demo.ucf -p xc6slx9-ftg256-2 smg_demo.ngc smg_demo.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o smg_demo_map.ncd smg_demo.ngd smg_demo.pcf 
+par -w -intstyle ise -ol high -mt off smg_demo_map.ncd smg_demo.ncd smg_demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml smg_demo.twx smg_demo.ncd -o smg_demo.twr smg_demo.pcf -ucf smg_demo.ucf 
+bitgen -intstyle ise -f smg_demo.ut smg_demo.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.xst" -ofn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.xst" -ofn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.xst" -ofn "C:/Users/Admin/Desktop/FPGA_ISE_code/FPGA_design/smg_demo/smg_demo/smg_demo.syr" 

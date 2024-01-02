@@ -1,0 +1,81 @@
+
+****** PlanAhead v14.7
+  **** Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from E:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [E:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [E:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source E:/FPGAtest/key_filter/pa.fromHdl.tcl
+# create_project -name key_filter -dir "E:/FPGAtest/key_filter/planAhead_run_1" -part xc3s100ecp132-4
+create_project: Time (s): elapsed = 00:00:15 . Memory (MB): peak = 305.719 ; gain = 0.000
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "key_filter.ucf" [current_fileset -constrset]
+Adding file 'E:/FPGAtest/key_filter/key_filter.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {key_filter.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top key_filter $srcset
+# add_files [list {key_filter.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s100ecp132-4
+Using Verific elaboration
+Parsing VHDL file "E:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "E:/FPGAtest/key_filter/key_filter.v" into library work
+INFO: [Designutils 20-910] Reading macro library E:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [E:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [E:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from E:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockRegion.xml
+Loading clock buffers from E:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockBuffers.xml
+Loading package from E:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/Package.xml
+Loading io standards from E:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from E:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/SSORules.xml
+Loading list of drcs for the architecture : E:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library E:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library E:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [E:/FPGAtest/key_filter/key_filter.ucf]
+Finished Parsing UCF File [E:/FPGAtest/key_filter/key_filter.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: a6da451d
+open_rtl_design: Time (s): elapsed = 00:00:34 . Memory (MB): peak = 305.719 ; gain = 0.000
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin A7 [get_ports {key_in[3]}]
+endgroup
+startgroup
+set_property package_pin M4 [get_ports {key_in[2]}]
+endgroup
+startgroup
+set_property package_pin C11 [get_ports {key_in[1]}]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports {key_in[0]}]
+endgroup
+startgroup
+set_property package_pin G1 [get_ports {key_out[3]}]
+endgroup
+startgroup
+set_property package_pin P4 [get_ports {key_out[2]}]
+endgroup
+startgroup
+set_property package_pin N4 [get_ports {key_out[1]}]
+endgroup
+startgroup
+set_property package_pin N5 [get_ports {key_out[0]}]
+endgroup
+startgroup
+set_property package_pin N3 [get_ports rst_n]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports clk]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue Jan 22 18:21:54 2019...
+INFO: [Common 17-83] Releasing license: PlanAhead

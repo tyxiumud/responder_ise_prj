@@ -1,0 +1,17 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu May 21 20:57:36 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "led<0>" LOCATE = SITE "M6" LEVEL 1;
+COMP "led<1>" LOCATE = SITE "P5" LEVEL 1;
+COMP "led<2>" LOCATE = SITE "N5" LEVEL 1;
+COMP "clk" LOCATE = SITE "T8" LEVEL 1;
+COMP "led<3>" LOCATE = SITE "P4" LEVEL 1;
+COMP "key_in<0>" LOCATE = SITE "E3" LEVEL 1;
+COMP "key_in<1>" LOCATE = SITE "E4" LEVEL 1;
+COMP "key_in<2>" LOCATE = SITE "D3" LEVEL 1;
+COMP "key_in<3>" LOCATE = SITE "C3" LEVEL 1;
+COMP "rst_n" LOCATE = SITE "N3" LEVEL 1;
+SCHEMATIC END;
+

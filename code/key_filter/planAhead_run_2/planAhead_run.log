@@ -1,0 +1,104 @@
+
+****** PlanAhead v14.7
+  **** Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from D:/ISE/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+INFO: [Common 17-81] Feature available: PartialReconfiguration
+source C:/Users/Admin/Desktop/FPGA_ISE_code/key_filter/pa.fromNetlist.tcl
+# create_project -name key_filter -dir "C:/Users/Admin/Desktop/FPGA_ISE_code/key_filter/planAhead_run_2" -part xc6slx9ftg256-2
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/Admin/Desktop/FPGA_ISE_code/key_filter/key_filter.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/Admin/Desktop/FPGA_ISE_code/key_filter} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "key_filter.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Admin/Desktop/FPGA_ISE_code/key_filter/key_filter.ucf' to fileset 'constrs_1'
+# add_files [list {key_filter.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx9ftg256-2
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design key_filter.ngc ...
+WARNING:NetListWriters:298 - No output is written to key_filter.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file key_filter.edif ...
+ngc2edif: Total memory usage is 108140 kilobytes
+
+Parsing EDIF File [./planAhead_run_2/key_filter.data/cache/key_filter_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_2/key_filter.data/cache/key_filter_ngc_zx.edif]
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from D:/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockRegion.xml
+Loading clock buffers from D:/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockBuffers.xml
+Loading package pin functions from D:/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from D:/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ftg256/Package.xml
+Loading io standards from D:/ISE/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from D:/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : D:/ISE/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [C:/Users/Admin/Desktop/FPGA_ISE_code/key_filter/key_filter.ucf]
+Finished Parsing UCF File [C:/Users/Admin/Desktop/FPGA_ISE_code/key_filter/key_filter.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  BUFGP => BUFGP (IBUF, BUFG): 1 instances
+
+Phase 0 | Netlist Checksum: 7afff5e3
+link_design: Time (s): elapsed = 00:00:06 . Memory (MB): peak = 574.211 ; gain = 90.875
+startgroup
+set_property package_pin G1 [get_ports {led[3]}]
+endgroup
+startgroup
+set_property package_pin A7 [get_ports {key_in[3]}]
+endgroup
+startgroup
+set_property package_pin M4 [get_ports {key_in[2]}]
+endgroup
+startgroup
+set_property package_pin C3 [get_ports {key_in[3]}]
+endgroup
+startgroup
+set_property package_pin D3 [get_ports {key_in[2]}]
+endgroup
+startgroup
+set_property package_pin E4 [get_ports {key_in[1]}]
+endgroup
+startgroup
+set_property package_pin E3 [get_ports {key_in[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {led[2]}]]
+startgroup
+set_property package_pin P4 [get_ports {led[3]}]
+endgroup
+set_property package_pin "" [get_ports [list  {led[2]}]]
+set_property package_pin "" [get_ports [list  {led[0]}]]
+set_property package_pin "" [get_ports [list  {led[2]}]]
+set_property package_pin "" [get_ports [list  {led[1]}]]
+startgroup
+set_property package_pin N5 [get_ports {led[2]}]
+endgroup
+startgroup
+set_property package_pin P5 [get_ports {led[1]}]
+endgroup
+startgroup
+set_property package_pin M6 [get_ports {led[0]}]
+endgroup
+startgroup
+set_property package_pin T8 [get_ports clk]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu May 21 20:57:12 2020...
+INFO: [Common 17-83] Releasing license: PlanAhead
